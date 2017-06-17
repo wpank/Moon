@@ -29,3 +29,6 @@ config :moon, Moon.Repo,
   database: "moon_dev",
   hostname: "localhost",
   pool_size: 10
+
+
+import_config "prod.secret.exs"
